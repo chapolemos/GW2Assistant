@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MenuButton: UIView {
+class MenuButton: UIButton {
 
     init() {
         super.init(frame: .zero)

@@ -40,6 +40,7 @@ class MenuViewController: UIViewController {
     
     lazy var taskButton: MenuButton = {
         let menuBtn = MenuButton()
+        menuBtn.addTarget(self, action: #selector(goToToTaskView), for: .touchUpInside)
         return menuBtn
     }()
     
@@ -56,6 +57,7 @@ class MenuViewController: UIViewController {
     
     lazy var searchButton: MenuButton = {
         let menuBtn = MenuButton()
+        menuBtn.addTarget(self, action: #selector(goToTaskSearch), for: .touchUpInside)
         return menuBtn
     }()
     
@@ -69,6 +71,20 @@ class MenuViewController: UIViewController {
         menuBtnLabel.backgroundColor = .clear
         return menuBtnLabel
     }()
+    
+    
+    @objc func goToTaskSearch() {
+        
+        let taskScreen = TaskSearchViewController()
+        self.navigationController?.pushViewController(taskScreen, animated: true)
+        print("Task Search Pressed")
+    }
+    
+    @objc func goToToTaskView() {
+        let taskViewScreen = TaskViewController()
+        self.navigationController?.pushViewController(taskViewScreen, animated: true)
+        print("Task View Pressed")
+    }
     
     private func configLayout(){
         self.view.addSubview(titleLabel)
