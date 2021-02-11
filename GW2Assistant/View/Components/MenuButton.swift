@@ -7,14 +7,23 @@
 
 import UIKit
 
-class MenuButton: UIButton {
+class MenuButton: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    init() {
+        super.init(frame: .zero)
+        self.tintColor = .ivory
+        configLayout()
+
     }
-    */
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
+    private func configLayout(){
+        NSLayoutConstraint.activate([
+            self.heightAnchor.constraint(equalToConstant: 32),
+            self.widthAnchor.constraint(equalToConstant: 32)
+        ])
+    }
 }
