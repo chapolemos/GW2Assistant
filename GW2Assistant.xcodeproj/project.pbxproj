@@ -14,7 +14,7 @@
 		000B7F2D25D56498004A6344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000B7F2B25D56498004A6344 /* LaunchScreen.storyboard */; };
 		000B7F3825D56498004A6344 /* GW2AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F3725D56498004A6344 /* GW2AssistantTests.swift */; };
 		000B7F4325D56498004A6344 /* GW2AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F4225D56498004A6344 /* GW2AssistantUITests.swift */; };
-		000B7F6125D567B9004A6344 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6025D567B9004A6344 /* TaskViewController.swift */; };
+		000B7F6125D567B9004A6344 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6025D567B9004A6344 /* TaskListViewController.swift */; };
 		000B7F6925D567D1004A6344 /* TaskSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */; };
 		000B7F6F25D59CEE004A6344 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6E25D59CEE004A6344 /* Colors.swift */; };
 		00BC86A325D59E11005E0299 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC86A225D59E11005E0299 /* MenuViewController.swift */; };
@@ -57,7 +57,7 @@
 		000B7F3E25D56498004A6344 /* GW2AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GW2AssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000B7F4225D56498004A6344 /* GW2AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GW2AssistantUITests.swift; sourceTree = "<group>"; };
 		000B7F4425D56498004A6344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000B7F6025D567B9004A6344 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		000B7F6025D567B9004A6344 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSearchViewController.swift; sourceTree = "<group>"; };
 		000B7F6E25D59CEE004A6344 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		00BC86A225D59E11005E0299 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				000B7F5525D56543004A6344 /* Model */,
 				000B7F5425D5653D004A6344 /* View */,
 				000B7F5625D56555004A6344 /* Presenter */,
-				000B7F1D25D56496004A6344 /* AppDelegate.swift */,
 				000B7F6D25D59CC9004A6344 /* Extensions */,
+				000B7F1D25D56496004A6344 /* AppDelegate.swift */,
 				000B7F1F25D56496004A6344 /* SceneDelegate.swift */,
 				000B7F2925D56498004A6344 /* Assets.xcassets */,
 				000B7F2B25D56498004A6344 /* LaunchScreen.storyboard */,
@@ -153,7 +153,7 @@
 		000B7F5425D5653D004A6344 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				000B7F6025D567B9004A6344 /* TaskViewController.swift */,
+				000B7F6025D567B9004A6344 /* TaskListViewController.swift */,
 				000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */,
 				00BC86A225D59E11005E0299 /* MenuViewController.swift */,
 				00BC86B025D5A2EE005E0299 /* Components */,
@@ -337,7 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000B7F1E25D56496004A6344 /* AppDelegate.swift in Sources */,
-				000B7F6125D567B9004A6344 /* TaskViewController.swift in Sources */,
+				000B7F6125D567B9004A6344 /* TaskListViewController.swift in Sources */,
 				000B7F6F25D59CEE004A6344 /* Colors.swift in Sources */,
 				00BC86A325D59E11005E0299 /* MenuViewController.swift in Sources */,
 				00BC86B225D5A32E005E0299 /* MenuButton.swift in Sources */,

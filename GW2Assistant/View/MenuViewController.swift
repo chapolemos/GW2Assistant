@@ -13,6 +13,8 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .bgHoneyDew
+        self.navigationController?.navigationBar.barTintColor = .btnDeepSaffron
+        self.navigationController?.navigationBar.tintColor = .txtLiverOrgan
         configLayout()
     }
     
@@ -73,17 +75,13 @@ class MenuViewController: UIViewController {
     }()
     
     
-    @objc func goToTaskSearch() {
-        
-        let taskScreen = TaskSearchViewController()
-        self.navigationController?.pushViewController(taskScreen, animated: true)
-        print("Task Search Pressed")
+    @objc func goToToTaskView() {
+        let taskViewScreen = TaskListViewController()
+        self.navigationController?.pushViewController(taskViewScreen, animated: true)
     }
     
-    @objc func goToToTaskView() {
-        let taskViewScreen = TaskViewController()
-        self.navigationController?.pushViewController(taskViewScreen, animated: true)
-        print("Task View Pressed")
+    @objc func goToTaskSearch() {
+        let taskScreen = TaskSearchViewController()
     }
     
     private func configLayout(){
