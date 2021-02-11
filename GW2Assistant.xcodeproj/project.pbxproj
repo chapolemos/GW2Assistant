@@ -24,6 +24,7 @@
 		00BC86CB25D5C4DB005E0299 /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86C825D5C4DA005E0299 /* PTSerif-Italic.ttf */; };
 		00BC86CC25D5C4DB005E0299 /* PTSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86C925D5C4DB005E0299 /* PTSerif-Bold.ttf */; };
 		00BC86CD25D5C4DB005E0299 /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86CA25D5C4DB005E0299 /* PTSerif-Regular.ttf */; };
+		00E95CEF25D5F44E00F6626C /* TaskListTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E95CEE25D5F44E00F6626C /* TaskListTaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		00BC86C825D5C4DA005E0299 /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Italic.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Italic.ttf"; sourceTree = "<group>"; };
 		00BC86C925D5C4DB005E0299 /* PTSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Bold.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Bold.ttf"; sourceTree = "<group>"; };
 		00BC86CA25D5C4DB005E0299 /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Regular.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Regular.ttf"; sourceTree = "<group>"; };
+		00E95CEE25D5F44E00F6626C /* TaskListTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				00BC86B125D5A32E005E0299 /* MenuButton.swift */,
+				00E95CEE25D5F44E00F6626C /* TaskListTaskTableViewCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				000B7F1E25D56496004A6344 /* AppDelegate.swift in Sources */,
 				000B7F6125D567B9004A6344 /* TaskListViewController.swift in Sources */,
 				000B7F6F25D59CEE004A6344 /* Colors.swift in Sources */,
+				00E95CEF25D5F44E00F6626C /* TaskListTaskTableViewCell.swift in Sources */,
 				00BC86A325D59E11005E0299 /* MenuViewController.swift in Sources */,
 				00BC86B225D5A32E005E0299 /* MenuButton.swift in Sources */,
 				000B7F6925D567D1004A6344 /* TaskSearchViewController.swift in Sources */,
