@@ -13,12 +13,28 @@ class TaskListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
-        print("Task List did load")
+        view.backgroundColor = .bgHoneyDew
+        setupTaskTableView()
         // Do any additional setup after loading the view.
     }
     
 
+  
+        
+    func setupTaskTableView(){
+        view.addSubview(taskListTableView)
+        taskListTableView.backgroundColor = .bgHoneyDew
+        taskListTableView.translatesAutoresizingMaskIntoConstraints = false
+        
+        
+        NSLayoutConstraint.activate([
+            taskListTableView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            taskListTableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+            taskListTableView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
+            taskListTableView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+
+        ])
+    }
     @objc func backAction() {
         self.tabBarController?.navigationController?.popViewController(animated: true)
     }
