@@ -11,7 +11,7 @@ class MenuButton: UIView {
 
     init() {
         super.init(frame: .zero)
-        self.tintColor = .ivory
+        
         configLayout()
 
     }
@@ -21,9 +21,12 @@ class MenuButton: UIView {
     }
 
     private func configLayout(){
+        self.backgroundColor = .btnDeepSaffron
+        self.layer.cornerRadius = 15
+        self.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            self.heightAnchor.constraint(equalToConstant: 32),
-            self.widthAnchor.constraint(equalToConstant: 32)
+            self.heightAnchor.constraint(equalToConstant: 72),
+            
         ])
     }
 }
