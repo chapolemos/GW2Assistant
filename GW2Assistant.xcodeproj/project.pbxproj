@@ -9,14 +9,21 @@
 /* Begin PBXBuildFile section */
 		000B7F1E25D56496004A6344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F1D25D56496004A6344 /* AppDelegate.swift */; };
 		000B7F2025D56496004A6344 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F1F25D56496004A6344 /* SceneDelegate.swift */; };
-		000B7F2225D56496004A6344 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F2125D56496004A6344 /* MenuViewController.swift */; };
 		000B7F2825D56496004A6344 /* GW2Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F2625D56496004A6344 /* GW2Assistant.xcdatamodeld */; };
 		000B7F2A25D56498004A6344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000B7F2925D56498004A6344 /* Assets.xcassets */; };
 		000B7F2D25D56498004A6344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000B7F2B25D56498004A6344 /* LaunchScreen.storyboard */; };
 		000B7F3825D56498004A6344 /* GW2AssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F3725D56498004A6344 /* GW2AssistantTests.swift */; };
 		000B7F4325D56498004A6344 /* GW2AssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F4225D56498004A6344 /* GW2AssistantUITests.swift */; };
-		000B7F6125D567B9004A6344 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6025D567B9004A6344 /* TasksViewController.swift */; };
+		000B7F6125D567B9004A6344 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6025D567B9004A6344 /* TaskListViewController.swift */; };
 		000B7F6925D567D1004A6344 /* TaskSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */; };
+		000B7F6F25D59CEE004A6344 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B7F6E25D59CEE004A6344 /* Colors.swift */; };
+		00BC86A325D59E11005E0299 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC86A225D59E11005E0299 /* MenuViewController.swift */; };
+		00BC86B225D5A32E005E0299 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC86B125D5A32E005E0299 /* MenuButton.swift */; };
+		00BC86BA25D5C133005E0299 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC86B925D5C133005E0299 /* Fonts.swift */; };
+		00BC86C425D5C3B0005E0299 /* GWTwoFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86C325D5C3B0005E0299 /* GWTwoFont.ttf */; };
+		00BC86CB25D5C4DB005E0299 /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86C825D5C4DA005E0299 /* PTSerif-Italic.ttf */; };
+		00BC86CC25D5C4DB005E0299 /* PTSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86C925D5C4DB005E0299 /* PTSerif-Bold.ttf */; };
+		00BC86CD25D5C4DB005E0299 /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00BC86CA25D5C4DB005E0299 /* PTSerif-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,6 @@
 		000B7F1A25D56496004A6344 /* GW2Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GW2Assistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000B7F1D25D56496004A6344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		000B7F1F25D56496004A6344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		000B7F2125D56496004A6344 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		000B7F2725D56496004A6344 /* GW2Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GW2Assistant.xcdatamodel; sourceTree = "<group>"; };
 		000B7F2925D56498004A6344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000B7F2C25D56498004A6344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,8 +57,16 @@
 		000B7F3E25D56498004A6344 /* GW2AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GW2AssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000B7F4225D56498004A6344 /* GW2AssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GW2AssistantUITests.swift; sourceTree = "<group>"; };
 		000B7F4425D56498004A6344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000B7F6025D567B9004A6344 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		000B7F6025D567B9004A6344 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSearchViewController.swift; sourceTree = "<group>"; };
+		000B7F6E25D59CEE004A6344 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		00BC86A225D59E11005E0299 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		00BC86B125D5A32E005E0299 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		00BC86B925D5C133005E0299 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		00BC86C325D5C3B0005E0299 /* GWTwoFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GWTwoFont.ttf; path = ../../../../../Downloads/GWTwoFont.ttf; sourceTree = "<group>"; };
+		00BC86C825D5C4DA005E0299 /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Italic.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Italic.ttf"; sourceTree = "<group>"; };
+		00BC86C925D5C4DB005E0299 /* PTSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Bold.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Bold.ttf"; sourceTree = "<group>"; };
+		00BC86CA25D5C4DB005E0299 /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PTSerif-Regular.ttf"; path = "../../../../../Downloads/PT_Serif/PTSerif-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,11 @@
 		000B7F1C25D56496004A6344 /* GW2Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				00BC86BE25D5C201005E0299 /* Fonts */,
 				000B7F5525D56543004A6344 /* Model */,
 				000B7F5425D5653D004A6344 /* View */,
 				000B7F5625D56555004A6344 /* Presenter */,
+				000B7F6D25D59CC9004A6344 /* Extensions */,
 				000B7F1D25D56496004A6344 /* AppDelegate.swift */,
 				000B7F1F25D56496004A6344 /* SceneDelegate.swift */,
 				000B7F2925D56498004A6344 /* Assets.xcassets */,
@@ -137,9 +153,10 @@
 		000B7F5425D5653D004A6344 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				000B7F2125D56496004A6344 /* MenuViewController.swift */,
-				000B7F6025D567B9004A6344 /* TasksViewController.swift */,
+				000B7F6025D567B9004A6344 /* TaskListViewController.swift */,
 				000B7F6825D567D1004A6344 /* TaskSearchViewController.swift */,
+				00BC86A225D59E11005E0299 /* MenuViewController.swift */,
+				00BC86B025D5A2EE005E0299 /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +173,34 @@
 			children = (
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		000B7F6D25D59CC9004A6344 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				000B7F6E25D59CEE004A6344 /* Colors.swift */,
+				00BC86B925D5C133005E0299 /* Fonts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00BC86B025D5A2EE005E0299 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				00BC86B125D5A32E005E0299 /* MenuButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		00BC86BE25D5C201005E0299 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				00BC86C325D5C3B0005E0299 /* GWTwoFont.ttf */,
+				00BC86C925D5C4DB005E0299 /* PTSerif-Bold.ttf */,
+				00BC86C825D5C4DA005E0299 /* PTSerif-Italic.ttf */,
+				00BC86CA25D5C4DB005E0299 /* PTSerif-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +308,10 @@
 			files = (
 				000B7F2D25D56498004A6344 /* LaunchScreen.storyboard in Resources */,
 				000B7F2A25D56498004A6344 /* Assets.xcassets in Resources */,
+				00BC86CB25D5C4DB005E0299 /* PTSerif-Italic.ttf in Resources */,
+				00BC86CD25D5C4DB005E0299 /* PTSerif-Regular.ttf in Resources */,
+				00BC86CC25D5C4DB005E0299 /* PTSerif-Bold.ttf in Resources */,
+				00BC86C425D5C3B0005E0299 /* GWTwoFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000B7F2225D56496004A6344 /* MenuViewController.swift in Sources */,
 				000B7F1E25D56496004A6344 /* AppDelegate.swift in Sources */,
-				000B7F6125D567B9004A6344 /* TasksViewController.swift in Sources */,
+				000B7F6125D567B9004A6344 /* TaskListViewController.swift in Sources */,
+				000B7F6F25D59CEE004A6344 /* Colors.swift in Sources */,
+				00BC86A325D59E11005E0299 /* MenuViewController.swift in Sources */,
+				00BC86B225D5A32E005E0299 /* MenuButton.swift in Sources */,
 				000B7F6925D567D1004A6344 /* TaskSearchViewController.swift in Sources */,
 				000B7F2025D56496004A6344 /* SceneDelegate.swift in Sources */,
+				00BC86BA25D5C133005E0299 /* Fonts.swift in Sources */,
 				000B7F2825D56496004A6344 /* GW2Assistant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

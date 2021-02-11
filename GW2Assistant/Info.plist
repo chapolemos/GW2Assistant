@@ -41,6 +41,13 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PTSerif-Bold.ttf</string>
+		<string>PTSerif-Italic.ttf</string>
+		<string>PTSerif-Regular.ttf</string>
+		<string>GWTwoFont.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

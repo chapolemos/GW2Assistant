@@ -11,10 +11,14 @@ class TaskSearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("Task Search did load")
         // Do any additional setup after loading the view.
     }
     
+    
+    @objc func backAction() {
+        self.tabBarController?.navigationController?.popViewController(animated: true)
+    }
 
     /*
     // MARK: - Navigation

@@ -9,12 +9,24 @@ import UIKit
 
 class MenuButton: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    init() {
+        super.init(frame: .zero)
+        
+        configLayout()
 
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    private func configLayout(){
+        self.backgroundColor = .btnDeepSaffron
+        self.layer.cornerRadius = 15
+        self.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            self.heightAnchor.constraint(equalToConstant: 72),
+            
+        ])
+    }
 }
